@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدينة تازة</title>
+
+    <style>
+        body{
+            background-color:hsla(200, 80%, 32%, 0.235);
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .headline{
+            color: #484846;
+            font-size: 35px;
+        }
+
+        .header{
+             width: 100%;
+             height: 400px;
+             object-fit: cover;
+             display: block;
+             object-position: 30% 70%;
+             
+        }
+        .image-container{
+            background-color:white;
+            padding: 16px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            color:#484846;
+            text-decoration: none;
+            margin-left: 16px;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: whitesmoke;
+        }
+        
+        .text{
+            margin-top: 1em;
+            color: #484846;
+            font-size: 1em;
+        }
+
+        .text-highlight{
+            font-size: 90px;
+            padding: 12px;
+        }
+
+        .text-container{
+            background-color: hsla(200, 80%, 32%, 0.235);
+            padding: 8px;
+            color: #484846;
+            font-weight: 600;
+        }
+
+        .map-container{
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .maps-right{
+            margin-left: 16px;
+            border: 8px dashed hsla(200, 80%, 32%, 0.235);
+            text-align: center;
+            padding: 5%;
+            width: 30%;
+        }
+
+        .maps-frame{
+            border: 0;
+            height: 350px;
+            width: 70%;
+        }
+
+        .legal-content{
+            font-size: 0.75em;
+            text-align: center;
+            margin-top: 16px;
+            padding: 8px;
+        }
+
+        .text-legal{
+            margin-right: 16px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <h1 class="headline">
+                    مناظر جميلة لمدينة <br> <div class="text-highlight">تازة</div>
+            </h1>
+        </div>
+
+        <div class="color">
+            <a href="Info.html">ادعة هنا لمزيد من المعلومات حول مدينة تازة</a>
+            <a href="preise.html">Preise</a>
+            <a href="standorte.html">Standorte</a>
+        </div>      
+
+    </div>
+
+    <div class="image-container">
+        <a class="weatherwidget-io" href="https://forecast7.com/ar/34d21n4d00/taza/" data-label_1="TAZA" data-label_2="WEATHER" data-theme="original" >TAZA WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+    </div>
+
+    <div class="image-container">
+        <img class="header" src="taza.jpg">
+        
+        <div class="text-container">
+            <div class="text">
+                <a href="https://www.google.com/search?q=%D9%85%D9%86%D8%A7%D8%B8%D8%B1+%D8%AC%D9%85%D9%8A%D9%84%D8%A9+%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%AA%D8%A7%D8%B2%D8%A9&rlz=1C1GCEA_enDE1014DE1014&sxsrf=ALiCzsZYNaL3mCnEjUpfBTrCuKbCFaJ0lA:1664205665829&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjmyq2c4bL6AhWL-6QKHRkGDxwQ_AUoAXoECAEQAw&biw=1280&bih=601&dpr=1.5" target="_blank">Google</a> يمكنك العثور على المزيد من الصور الرائعة
+            </div> 
+
+        </div>
+        
+        <div class="map-container"> 
+            <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52785.89693543491!2d-4.024387189492967!3d34.219991046932215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9e16e3220cba51%3A0x5410b150bbfddf69!2sTaza%2C%20Marokko!5e0!3m2!1sde!2sde!4v1666641607399!5m2!1sde!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <div class="text-container maps-right"> 
+                مدينة تازة الجميلة تستحق الزيارة
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="legal-content">
+        <span class="text-legal">(c) 2022 - Imaginary Company Ltd</span>|
+        <span class="text-legal"><a href="mailto:mail@email.de">البريد الإلكتروني</a></span>|
+        <span class="text-legal"><a href="tel:05445645946">هاتف</a></span>|
+        <span class="text-legal"><a href="#">خصوصية المعلومات</a></span>
+    </div>
+</body>
+</html>
