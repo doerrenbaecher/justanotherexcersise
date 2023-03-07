@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  color:coral;
+}
+
+p {
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+.links:hover {
+  font-style: italic;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em;
+
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em
+}
+
+.bilder1 img {
+  width: 350px;
+  height: auto;
+}
+
+.bilder2 img {
+  width: 400px;
+  height: auto;
+}
