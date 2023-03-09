@@ -1,16 +1,13 @@
 body {
-  background-image: url(/004/web-seite/justanotherexcersise/src/Universität-Odessa-2048x1536.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw;
-  text-align: center;
+background-color: rgb(0, 255, 255, 0.3);
 }
 
 h1 {
   color: white;
+  background-color: skyblue;
   font-size: 70px;
-  border: 5px;
-  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
 h1:hover {
@@ -18,18 +15,12 @@ h1:hover {
   background-color: maroon;
 }
 
-.odessa {
-  display: inline-block;
-  align-items: center;
-  border: 5px;
-}
-
 .klein-box {
-  width: 30%;
+  width: 20%;
   height: auto;
   background-color:maroon;
   opacity: 0.85;
-  border: 3px;
+  border: 3px solid gold;
   border-radius: 10px;
   margin: 20px;
   padding: 5px;
@@ -37,17 +28,42 @@ h1:hover {
 }
 
 h2 {
-  color: gold;
+  color:gold;
 }
 
 a {
   color: gold;
 }
 
-a:hover {
-  color:bisque;
+a:visited {
+  color:darkorange;
 }
 
-a:visited {
-  color: aliceblue;
+.flex-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  color: maroon;
+}
+
+.gw-bild {
+  width: 300px;
+}
+
+.gw {
+  height: 330px;
+  background-color: gold;
+  border: 3px solid maroon;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#titel {
+  color: maroon;
 }
